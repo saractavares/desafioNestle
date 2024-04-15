@@ -1,0 +1,14 @@
+# Ignorar a pasta Include
+Include/
+
+# Ignorar a pasta Lib
+Lib/
+
+# Ignorar a pasta Scripts
+Scripts/
+
+# Ignorar a pasta share
+share/
+
+# Ignorar o arquivo pyvenv.cfg
+pyvenv.cfg

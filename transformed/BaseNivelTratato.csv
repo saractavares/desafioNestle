@@ -1,0 +1,6 @@
+nivel;descricao_nivel;tempo_no_nivel;setor_responsavel;plano_odontologico;plano_de_carreira;plano_de_saude
+JE;Diretor;10;RH Headhunter;Sim;Não;Sim
+JA;Estagiário;1;RH Universidade;Não;Sim;Sim
+DB;Analista;4;RH Empresas;Não;Sim;Sim
+GC;Coordenador;5;RH Empresas;Sim;Sim;Sim
+ID;Gerente;10;RH Empresas;Sim;Não;Sim
