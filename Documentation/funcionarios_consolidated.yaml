@@ -1,0 +1,130 @@
+nome_da_base: Base de Dados de Funcionários e Contratos
+
+colunas:
+  - nome: cargo
+    tipo: string
+    descricao: Cargo ocupado pelo funcionário.
+
+  - nome: id_rh
+    tipo: integer
+    descricao: Identificador de Recursos Humanos do funcionário.
+
+  - nome: ramal
+    tipo: integer
+    descricao: Número de ramal do funcionário.
+
+  - nome: nome_completo
+    tipo: string
+    descricao: Nome completo do funcionário.
+
+  - nome: data_de_nascimento
+    tipo: date
+    descricao: Data de nascimento do funcionário no formato AAAA-MM-DD.
+
+  - nome: data_de_contratacao
+    tipo: date
+    descricao: Data de contratação do funcionário no formato AAAA-MM-DD.
+
+  - nome: data_de_demissao
+    tipo: date
+    descricao: Data de demissão do funcionário no formato AAAA-MM-DD (se aplicável).
+
+  - nome: dias_uteis_trabalhados_ano_orcamentario
+    tipo: integer
+    descricao: Número de dias úteis trabalhados no ano orçamentário.
+
+  - nome: impostos
+    tipo: float
+    descricao: Valor total dos impostos retidos do salário do funcionário.
+
+  - nome: beneficios
+    tipo: float
+    descricao: Valor total dos benefícios concedidos ao funcionário.
+
+  - nome: vt
+    tipo: float
+    descricao: Valor total do vale-transporte fornecido ao funcionário.
+
+  - nome: vr
+    tipo: float
+    descricao: Valor total do vale-refeição fornecido ao funcionário.
+
+  - nome: bandeira
+    tipo: string
+    descricao: Bandeira associada ao funcionário.
+
+  - nome: codigos
+    tipo: string
+    descricao: Códigos associados ao funcionário.
+
+  - nome: quantidade_de_acessos
+    tipo: integer
+    descricao: Quantidade de acessos registrados para o funcionário.
+
+  - nome: ferias_acumuladas
+    tipo: integer
+    descricao: Quantidade de dias de férias acumuladas pelo funcionário.
+
+  - nome: ferias_remuneradas
+    tipo: integer
+    descricao: Quantidade de dias de férias remuneradas para o funcionário.
+
+  - nome: horas_extras
+    tipo: integer
+    descricao: Quantidade de horas extras trabalhadas pelo funcionário.
+
+  - nome: valores_adicionais
+    tipo: float
+    descricao: Valores adicionais pagos ao funcionário.
+
+  - nome: id_de_pessoal
+    tipo: integer
+    descricao: Identificador único de pessoal associado ao funcionário.
+
+  - nome: id_da_area
+    tipo: integer
+    descricao: Identificador único da área associada ao funcionário.
+
+  - nome: sensitive_key
+    tipo: string
+    descricao: Chave sensível associada ao funcionário.
+
+  - nome: nivel
+    tipo: string
+    descricao: Nível ocupacional do funcionário.
+
+  - nome: area
+    tipo: string
+    descricao: Área de atuação do funcionário.
+
+  - nome: cod_area
+    tipo: string
+    descricao: Código da área associada ao funcionário.
+
+  - nome: cod_nivel
+    tipo: string
+    descricao: Código do nível associado ao funcionário.
+
+  - nome: quadro
+    tipo: string
+    descricao: Tipo de quadro onde o funcionário está inserido.
+
+  - nome: bonus
+    tipo: string
+    descricao: Indicação se o funcionário recebe bônus.
+
+  - nome: contratacao
+    tipo: string
+    descricao: Indicação se o funcionário é efetivo ou terceirizado.
+
+  - nome: plano_odontologico
+    tipo: string
+    descricao: Indicação se o funcionário possui plano odontológico.
+
+  - nome: plano_de_carreira
+    tipo: string
+    descricao: Indicação se o funcionário possui plano de carreira.
+
+  - nome: plano_de_saude
+    tipo: string
+    descricao: Indicação se o funcionário possui plano de saúde.

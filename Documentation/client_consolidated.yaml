@@ -1,0 +1,38 @@
+nome_da_base: Base de Dados de Clientes e Contratos
+
+colunas:
+  - nome: cliente
+    tipo: string
+    descricao: Nome do cliente.
+
+  - nome: cargo_responsavel
+    tipo: string
+    descricao: Cargo do responsável pelo contrato.
+
+  - nome: data_inicio_contrato
+    tipo: date
+    descricao: Data de início do contrato no formato DD/MM/AAAA.
+
+  - nome: nivel_de_importancia
+    tipo: integer
+    descricao: Nível de importância do contrato, variando de 1 (baixo) a 4 (alto).
+
+  - nome: nivel_de_importancia_extra
+    tipo: integer
+    descricao: Nível de importância adicional do contrato (opcional).
+
+  - nome: quantidade_de_servicos
+    tipo: integer
+    descricao: Quantidade de serviços contratados.
+
+  - nome: cod_area
+    tipo: string
+    descricao: Código da área do contrato.
+
+  - nome: cod_nivel
+    tipo: string
+    descricao: Código do nível do contrato.
+
+  - nome: personel_key
+    tipo: string
+    descricao: Chave única que identifica o contrato, geralmente composta pela data de início, cargo do responsável, código da área e código do nível.

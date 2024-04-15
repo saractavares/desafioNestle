@@ -1,0 +1,14 @@
+nome_da_base: Base de Dados de Contratos Anuais
+
+colunas:
+  - nome: valor_contrato_anual
+    tipo: integer
+    descricao: Valor total do contrato anual em reais.
+
+  - nome: cep
+    tipo: string
+    descricao: CEP associado ao contrato.
+
+  - nome: personel_key
+    tipo: string
+    descricao: Chave única que identifica o contrato, geralmente composta pela data de início, cargo do responsável, código da área e código do nível.

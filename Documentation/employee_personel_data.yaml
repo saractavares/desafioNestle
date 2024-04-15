@@ -1,0 +1,38 @@
+nome_da_base: Base de Dados de Informações Pessoais
+
+colunas:
+  - nome: cep
+    tipo: string
+    descricao: CEP do endereço associado à pessoa.
+
+  - nome: rg
+    tipo: string
+    descricao: Número do RG (Registro Geral) da pessoa.
+
+  - nome: cpf
+    tipo: string
+    descricao: Número do CPF (Cadastro de Pessoas Físicas) da pessoa.
+
+  - nome: estado_civil
+    tipo: string
+    descricao: Estado civil da pessoa (C = Casado, S = Solteiro).
+
+  - nome: login
+    tipo: string
+    descricao: Login utilizado pela pessoa.
+
+  - nome: salario_base
+    tipo: integer
+    descricao: Salário base da pessoa em reais.
+
+  - nome: sensitive_key
+    tipo: string
+    descricao: Chave sensível associada à pessoa.
+
+  - nome: estado
+    tipo: string
+    descricao: Estado onde a pessoa reside.
+
+  - nome: regiao
+    tipo: string
+    descricao: Região geográfica onde a pessoa reside.
